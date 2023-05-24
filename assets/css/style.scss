@@ -1,0 +1,82 @@
+---
+---
+
+$large-breakpoint: 76em;
+
+@import 'jekyll-theme-cayman';
+
+// The gaps on the side could stand to be smaller
+.main-content {
+    @include large {
+      max-width: 76rem;
+    }
+}
+
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    height: 20em;
+    flex-grow: 1;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.post-image {
+    height: 100%;
+}
+
+.image-pair {
+    text-align: center;
+}
+
+.image-pair * {
+    width: 45%;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+nav {
+    float: left;
+    margin: 0.5rem;
+}
+
+.nav-btn {
+    border-radius: 0;
+    + .nav-btn {
+        margin-left: 0;
+    }
+    margin-bottom: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.nav-btn:first-child {
+    border-left-width: 1px;
+}
+
+.nav-btn:last-child {
+    border-right-width: 1px;
+}
+
+.page-header {
+    text-align: left;
+    padding: 0rem;
+}
+
+.header-content {
+    text-align: center;
+    @include large {
+        padding: 5rem 6rem;
+    }
+
+    @include medium {
+        padding: 3rem 4rem;
+    }
+
+    @include small {
+        padding: 2rem 1rem;
+    }
+}
