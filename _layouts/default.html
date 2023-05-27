@@ -30,6 +30,9 @@
                 <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
                 <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
             {% endif %}
+            {% for link in page.links %}
+                <a href="{{ link.url }}" class="btn">{{ link.text }}</a>
+            {% endfor %}
         </div>
     </header>
 

@@ -32,6 +32,14 @@ nav_links:
     url: /
   - title: Test
     url: /
+  - title: Test
+    url: /
+  - title: Test
+    url: /
+  - title: Test
+    url: /
+  - title: Test
+    url: /
 
 # Build settings
 remote_theme: pages-themes/cayman@v0.2.0

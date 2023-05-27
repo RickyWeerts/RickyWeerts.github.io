@@ -39,8 +39,9 @@ $large-breakpoint: 76em;
 }
 
 nav {
-    float: left;
-    margin: 0.5rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
 }
 
 .nav-btn {

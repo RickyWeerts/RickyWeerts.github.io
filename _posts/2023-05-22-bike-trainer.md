@@ -2,8 +2,8 @@
 layout: project
 title:  "Aelevate Bike Trainer"
 description: "The fully integrated, smart, elevating bike trainer."
-categories: gui .net
-permalink: 03-bike-trainer
+categories: GUI .NET MAUI
+permalink: 01-bike-trainer
 image: assets/images/bike_trainer/group_photo.jpg
 repo: https://github.com/Brokemia/Aelevate_GUI
 ---
@@ -38,8 +38,6 @@ In response, the Arduino sent back a far simpler data format. It simply alternat
 
 ## Sensors
 We used a potentiometer to detect the actual tilt value of the bike, which combines with a hoist to make a feedback loop that accurately targets our desired tilt angle. We also use a hall effect sensor to detect the number of rotations of the back wheel for use in determining the speed of the bike.
-
-To allow for user interfacing with the product, we developed software to serve a GUI to the user to allow for touch control of the trainer and visual feedback to the user. It was written in C# using .NET MAUI (Multi-Platform App UI)​ framework to allow for quick prototyping and platform compatibility. It allows users to control resistance and tilt independently, or link them together to control them in a fixed ratio​. It provides graphical visualizations of the current speed and tilt of the trainer. Finally, it provides a central interface for running pre-programmed routes, with the ability to skip, pause, and play the progress of the courses.
 
 ![A diagram showing how the arduino, sensors, and actuators are wired together](assets/images/bike_trainer/wiring_diagram.jpg)
 
