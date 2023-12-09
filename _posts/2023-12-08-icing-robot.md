@@ -8,7 +8,7 @@ image: assets/images/cake_icing_robot/thumbnail.png
 repo: https://gitlab.oit.duke.edu/smw92/finalrobotics
 ---
 
-<video muted>
+<video muted controls width="100%">
     <source src="assets/images/cake_icing_robot/demo_fish.mp4" type="video/mp4">
 </video>
 
